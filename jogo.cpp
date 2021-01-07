@@ -1,9 +1,9 @@
 /*  General Public License - GPL 2002.
-	Por estudantes de Ciência da Computação - Universiade Estadual de Santa Cruz
-	Thiago Santana da Silva (^Turbo^)  thiagofeira@hotmail.com  (2º Semestre)
-	Giovanni Gallindo		(SID_CDF)  gigio@privat.ms          (1º Semestre)
-	Mathias Brito					   mathiasbrito@yahoo.com	(2º Semestre)
-	Sugestões, criticas mande um e-mail para nosso grupo: cmaisjogos@yahoogrupos.com.br  
+	Por estudantes de CiÃªncia da ComputaÃ§Ã£o - Universiade Estadual de Santa Cruz
+	Thiago Santana da Silva (^Turbo^)  thiagofeira@hotmail.com  (2Âº Semestre)
+	Giovanni Gallindo		(SID_CDF)  gigio@privat.ms          (1Âº Semestre)
+	Mathias Brito					   mathiasbrito@yahoo.com	(2Âº Semestre)
+	SugestÃµes, criticas mande um e-mail para nosso grupo: cmaisjogos@yahoogrupos.com.br  
 */
 #include <iostream>
 #include <ctime>
@@ -58,7 +58,7 @@ int abertura(){
 		int escolha;
 	do{
 	uesccombat();
-	cout<<"   ®¯ Thiago Silva (^Turbo^), Giovanni Gallindo (SID_CDF) & Mathias Brito ®¯\n";
+	cout<<"   Â«Â» Thiago Silva (^Turbo^), Giovanni Gallindo (SID_CDF) & Mathias Brito Â«Â»\n";
 	cout<<"\t\t           GNU - General Public License\n";
 	cout<<"\t\t  Copyrigth 2002. Free Software Foundation, inc.\n";
 	cout<<"\t      Este programa eh distribuido sobre os termos da GPL v2\n\n";
@@ -77,17 +77,17 @@ void uesccombat()
 {
 	system("CLS");
 	cout<<"\n";
-	cout<<"\t\t\t  ÛÛ  ÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛÛ\n";
-	cout<<"\t\t\t  ÛÛ  ÛÛ  ÛÛ      ÛÛ      ÛÛ\n";
-	cout<<"\t\t\t  ÛÛ  ÛÛ  ÛÛÛÛ    ÛÛÛÛÛÛ  ÛÛ\n";
-	cout<<"\t\t\t  ÛÛ  ÛÛ  ÛÛ          ÛÛ  ÛÛ\n";
-	cout<<"\t\t\t  ÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛÛ\n\n";
+	cout<<"\t\t\t  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ\n";
+	cout<<"\t\t\t  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆ      â–ˆâ–ˆ\n";
+	cout<<"\t\t\t  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆ    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ\n";
+	cout<<"\t\t\t  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ          â–ˆâ–ˆ  â–ˆâ–ˆ\n";
+	cout<<"\t\t\t  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ\n\n";
 	
-	cout<<"\t        °°°°°°  °°°°°°  °°° °°°°  °°°°°°   °°°°°°  °°°°°°°\n";
-	cout<<"\t       °°      °°  °°  °° °° °°  °°   °   °°  °°     °° \n";
-	cout<<"\t      °°      °°  °°  °° °° °°  °°°°°°   °°°°°°     °°\n";
-	cout<<"\t     °°      °°  °°  °°    °°  °°   °   °°  °°     °°\n";
-	cout<<"\t    °°°°°°  °°°°°°  °°    °°  °°°°°°   °°  °°     °°\n";
+	cout<<"\t        â–‘â–‘â–‘â–‘â–‘â–‘  â–‘â–‘â–‘â–‘â–‘â–‘  â–‘â–‘â–‘ â–‘â–‘â–‘â–‘  â–‘â–‘â–‘â–‘â–‘â–‘   â–‘â–‘â–‘â–‘â–‘â–‘  â–‘â–‘â–‘â–‘â–‘â–‘â–‘\n";
+	cout<<"\t       â–‘â–‘      â–‘â–‘  â–‘â–‘  â–‘â–‘ â–‘â–‘ â–‘â–‘  â–‘â–‘   â–‘   â–‘â–‘  â–‘â–‘     â–‘â–‘ \n";
+	cout<<"\t      â–‘â–‘      â–‘â–‘  â–‘â–‘  â–‘â–‘ â–‘â–‘ â–‘â–‘  â–‘â–‘â–‘â–‘â–‘â–‘   â–‘â–‘â–‘â–‘â–‘â–‘     â–‘â–‘\n";
+	cout<<"\t     â–‘â–‘      â–‘â–‘  â–‘â–‘  â–‘â–‘    â–‘â–‘  â–‘â–‘   â–‘   â–‘â–‘  â–‘â–‘     â–‘â–‘\n";
+	cout<<"\t    â–‘â–‘â–‘â–‘â–‘â–‘  â–‘â–‘â–‘â–‘â–‘â–‘  â–‘â–‘    â–‘â–‘  â–‘â–‘â–‘â–‘â–‘â–‘   â–‘â–‘  â–‘â–‘     â–‘â–‘\n";
 	cout<<"\t\t\t\t\t\t  Versao 0.2\n";
 }
 void jogo()
@@ -98,7 +98,7 @@ void jogo()
 	
 	system("CLS"); 
 					inicializa_personagem(resistencia_personagem, agilidade, ataque);	
-					cout << "Digite seu nome ¯ ";
+					cout << "Digite seu nome Â» ";
 					cin >> nome_personagem;
 					system("CLS");
 					fase=1;
@@ -127,7 +127,7 @@ void jogo()
 void regras_jogo()
 {
 	system("CLS");
-	cout<<"\t\tSeja bem vindo ao jogo ®® UESC COMBAT ¯¯\n\n";
+	cout<<"\t\tSeja bem vindo ao jogo Â«Â« UESC COMBAT Â»Â»\n\n";
 	cout<<"\tRegras:\n";
 	cout<<"No inicio do jogo, voce escolhe o NIVEL, de acordo com ele voce recebe \n";
 	cout<<" uma quantidade de pontos.\n";
@@ -150,7 +150,7 @@ void regras_jogo()
 void agradecimentos()
 {
 	system("cls");
-	cout<<"\t\t\t\t® AGRADECIMENTOS ¯\n\n";
+	cout<<"\t\t\t\tÂ« AGRADECIMENTOS Â»\n\n";
 	cout<<"\tGostariamos  de  agradecer  a  algumas  pessoas  que tornaram esse jogo possivel.\n";
 	cout<<"1 - Agradecemos em primeiro lugar ao homem que teve a brilhante ideia de contar seus carneirinhos utilizando pedrinhas, o que mais tarde deu origem ao abaco queeh o ancestral do computador.\n";
 	cout<<"2 - Gostariamos de prestar homenagem aos homens que tornaram nossas vidas melhor Blaise  Pascal e  Charles Babage. Agradecemos tambem a Martin Richards (Pai da linguagem BCPL), Ken Tompson(Pai da linguagem B), que deram origem as linguagensC e C++\n";
@@ -204,7 +204,7 @@ void inicializa_personagem(int &resistencia, int&agilidade, int &ataque)
 	do{
 		
 		do {
-			cout << "VALOR DO ATAQUE ¯ ";
+			cout << "VALOR DO ATAQUE Â» ";
 			cin >> aux;
 			
 			if (aux > pontos ) // verifica se tem pontos suficientes
@@ -221,7 +221,7 @@ void inicializa_personagem(int &resistencia, int&agilidade, int &ataque)
 			
 			do {
 				cout<<"Voce tem "<<pontos<<" pontos"<<endl;
-				cout << "VALOR DA AGILIDADE ¯ ";
+				cout << "VALOR DA AGILIDADE Â» ";
 				cin >> aux;
 				
 				if (aux > pontos ) // verifica se tem pontos suficientes
@@ -238,7 +238,7 @@ void inicializa_personagem(int &resistencia, int&agilidade, int &ataque)
 				
 				do {
 					cout<<"Voce tem "<<pontos<<" pontos"<<endl;
-					cout << "VALOR DA RESISTENCIA ¯ ";
+					cout << "VALOR DA RESISTENCIA Â» ";
 					cin >> aux;
 					
 					if (aux > pontos ) // verifica se tem pontos suficientes
@@ -396,7 +396,7 @@ int combate(int fase, int numero_monstro, char nome_personagem[25],int &resisten
 	//inicio do combate
 	while (life_personagem > 0 && life_monstro > 0) {
 		cont++;
-		cout << "\t\t----------> Resultado da " << cont << "¦ Rodada <------------\n\n";
+		cout << "\t\t----------> Resultado da " << cont << "Â¦ Rodada <------------\n\n";
 		
 		//jogada do monstro
 		rola_dado=dado();
@@ -448,14 +448,14 @@ void inicia_luta(int fase, char nome_personagem[25], int resistencia_personagem,
 	system("CLS");
 	if (numero_monstro==6)
 		cout<<"\t\t\t\t\t\t\t CHEFAO";
-	cout<<"\n\t  /þþþþþ\\                FASE - "<<fase<<"                /þþþþþ\\\n";
-	cout<<"\t  þ Ï Ï þ                LUTA - "<<numero_monstro<<"                þ Ï Ï þ\n";
-	cout<<"\t  þ  -  þ                                        þ  -  þ\n";
-	cout<<"\t  \\þþþþþ/                 Û   Û                  \\þþþþþ/\n";
-	cout<<"\t     *                     Û Û                      *\n";
-	cout<<"\t     *                      Û                       *\n";
-	cout<<"\t   *****                   Û Û                    *****\n";
-	cout<<"\t  *  *  *                 Û   Û                  *  *  *\n";
+	cout<<"\n\t  /â– â– â– â– â– \\                FASE - "<<fase<<"                /â– â– â– â– â– \\\n";
+	cout<<"\t  â–  â•§ â•§ â–                 LUTA - "<<numero_monstro<<"                â–  â•§ â•§ â– \n";
+	cout<<"\t  â–   -  â–                                         â–   -  â– \n";
+	cout<<"\t  \\â– â– â– â– â– /                 â–ˆ   â–ˆ                  \\â– â– â– â– â– /\n";
+	cout<<"\t     *                     â–ˆ â–ˆ                      *\n";
+	cout<<"\t     *                      â–ˆ                       *\n";
+	cout<<"\t   *****                   â–ˆ â–ˆ                    *****\n";
+	cout<<"\t  *  *  *                 â–ˆ   â–ˆ                  *  *  *\n";
 	cout<<"\t     *                                              *\n";
 	cout<<"\t    * *                                            * *\n";
 	cout<<"\t   *   *                                          *   *\n\n";
@@ -858,7 +858,7 @@ void refaz_personagem(int &pontos,int &resistencia, int&agilidade, int &ataque, 
 	do{
 		redefinir=0;
 		do {
-			cout << "ADICIONAR AO ATAQUE ¯ ";
+			cout << "ADICIONAR AO ATAQUE Â» ";
 			cin >> aux;
 			
 			if (aux > pontos ) // verifica se tem pontos suficientes
@@ -878,7 +878,7 @@ void refaz_personagem(int &pontos,int &resistencia, int&agilidade, int &ataque, 
 			
 			do {
 	//			cout<<"Voce tem "<<pontos<<" pontos"<<endl;
-				cout << "ADICIONAR A AGILIDADE ¯ ";
+				cout << "ADICIONAR A AGILIDADE Â» ";
 				cin >> aux;
 				
 				if (aux > pontos ) // verifica se tem pontos suficientes
@@ -899,7 +899,7 @@ void refaz_personagem(int &pontos,int &resistencia, int&agilidade, int &ataque, 
 				
 				do {
 //					cout<<"Voce tem "<<pontos<<" pontos"<<endl;
-					cout << "ADICIONAR A RESISTENCIA ¯ ";
+					cout << "ADICIONAR A RESISTENCIA Â» ";
 					cin >> aux;
 					
 					if (aux > pontos ) // verifica se tem pontos suficientes
@@ -953,17 +953,17 @@ void status(int resistencia, int agilidade, int ataque, int pontos, int dinheiro
 void gameover(){
 	system("PAUSE");
 	system("CLS");
-	cout<<"\n\n\n\n\t\t\tÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛ   ÛÛÛ  ÛÛÛÛÛÛ\n";
-	cout<<"\t\t\tÛÛ      ÛÛ  ÛÛ  ÛÛ Û Û ÛÛ  ÛÛ\n";
-	cout<<"\t\t\tÛÛ ÛÛÛ  ÛÛÛÛÛÛ  ÛÛ  Û  ÛÛ  ÛÛÛÛ\n";
-	cout<<"\t\t\tÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ     ÛÛ  ÛÛ\n";
-	cout<<"\t\t\tÛÛÛÛÛÛ  ÛÛ  ÛÛ  ÛÛ     ÛÛ  ÛÛÛÛÛÛ\n\n";
+	cout<<"\n\n\n\n\t\t\tâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆ   â–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ\n";
+	cout<<"\t\t\tâ–ˆâ–ˆ      â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ â–ˆ â–ˆ â–ˆâ–ˆ  â–ˆâ–ˆ\n";
+	cout<<"\t\t\tâ–ˆâ–ˆ â–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆ\n";
+	cout<<"\t\t\tâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ     â–ˆâ–ˆ  â–ˆâ–ˆ\n";
+	cout<<"\t\t\tâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ     â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ\n\n";
 	
-	cout<<"\t\t\t  ÛÛÛÛÛÛ  ÛÛ  ÛÛ ÛÛÛÛÛÛ  ÛÛÛÛÛ  \n";
-	cout<<"\t\t\t  ÛÛ  ÛÛ  ÛÛ  ÛÛ ÛÛ      ÛÛ  ÛÛ  \n";
-	cout<<"\t\t\t  ÛÛ  ÛÛ  ÛÛ  ÛÛ ÛÛÛÛ    ÛÛÛÛÛ  \n";
-	cout<<"\t\t\t  ÛÛ  ÛÛ   ÛÛÛÛ  ÛÛ      ÛÛ  ÛÛ \n";
-	cout<<"\t\t\t  ÛÛÛÛÛÛ    ÛÛ   ÛÛÛÛÛÛ  ÛÛ  ÛÛ \n\n\n\n\n\n\n\n\n\n";
+	cout<<"\t\t\t  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  \n";
+	cout<<"\t\t\t  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ â–ˆâ–ˆ      â–ˆâ–ˆ  â–ˆâ–ˆ  \n";
+	cout<<"\t\t\t  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ â–ˆâ–ˆâ–ˆâ–ˆ    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  \n";
+	cout<<"\t\t\t  â–ˆâ–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆ  â–ˆâ–ˆ \n";
+	cout<<"\t\t\t  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ    â–ˆâ–ˆ   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ \n\n\n\n\n\n\n\n\n\n";
 	system("PAUSE");
 
 }
@@ -977,11 +977,11 @@ void barrinha(int life_personagem,char nome_personagem[25], int life_monstro)
 		cout<<"\n\n\t\t\t";
 		cout<<" "<<nome_personagem<<" L I F E \n\t";
 		for (int i=0; i<50; i++)// imprime o fundo da barrinha
-			cout<<"°";
+			cout<<"â–‘";
 		 
 		cout<<"\r\t";
 		for (int j=0; j<barra; j++) //imprime a quantidade de fife
-			cout<<"Û";
+			cout<<"â–ˆ";
 		cout<<"\n\n\n\t\t\t"; 
 		
 	
@@ -991,11 +991,11 @@ void barrinha(int life_personagem,char nome_personagem[25], int life_monstro)
 		barra=porcentagem(life_monstro);
 		cout<<nome_monstro<<" L I F E \n\t";
 		for (int k=0; k<50; k++)// imprime o fundo da barrinha
-			cout<<"°"; 
+			cout<<"â–‘"; 
 		
 		cout<<"\r\t";
 		for (int l=0; l<barra; l++) //imprime a quantidade de fife
-			cout<<"Û";
+			cout<<"â–ˆ";
 		cout<<"\n\n\n";
 		
 }
@@ -1009,23 +1009,23 @@ int porcentagem(int life) {
 
 void zerar()
 {	system("CLS");
-	cout<<"\n\n\tÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛ   ÛÛÛÛÛÛ  ÛÛÛÛÛ   ÛÛÛÛÛÛ  ÛÛ  ÛÛ  ÛÛÛÛÛÛ\n";
-	cout<<"\tÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ      ÛÛÛ ÛÛ  ÛÛ\n";
-	cout<<"\tÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛ   ÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛ    ÛÛÛÛÛÛ  ÛÛÛÛÛÛ\n";
-	cout<<"\tÛÛ      ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ      ÛÛ ÛÛÛ      ÛÛ\n";
-	cout<<"\tÛÛ      ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛÛÛÛ   ÛÛÛÛÛÛ  ÛÛ  ÛÛ  ÛÛÛÛÛÛ\n";
+	cout<<"\n\n\tâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ\n";
+	cout<<"\tâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆâ–ˆ â–ˆâ–ˆ  â–ˆâ–ˆ\n";
+	cout<<"\tâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆ    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ\n";
+	cout<<"\tâ–ˆâ–ˆ      â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆ â–ˆâ–ˆâ–ˆ      â–ˆâ–ˆ\n";
+	cout<<"\tâ–ˆâ–ˆ      â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ\n";
 	
-	cout<<"\n\n\t\t\tÛÛ  ÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛÛ\n";
-	cout<<"\t\t\tÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ      ÛÛ\n";
-	cout<<"\t\t\tÛÛ  ÛÛ  ÛÛ  ÛÛ  ÛÛ      ÛÛÛÛ\n";
-	cout<<"\t\t\t ÛÛÛÛ   ÛÛ  ÛÛ  ÛÛ      ÛÛ\n";
-	cout<<"\t\t\t  ÛÛ    ÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛÛ\n\n\n";
+	cout<<"\n\n\t\t\tâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ\n";
+	cout<<"\t\t\tâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆ\n";
+	cout<<"\t\t\tâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆâ–ˆâ–ˆ\n";
+	cout<<"\t\t\t â–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆ\n";
+	cout<<"\t\t\t  â–ˆâ–ˆ    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ\n\n\n";
 
-	cout<<"\t\tÛÛ  ÛÛ  ÛÛÛÛÛÛ  ÛÛ  ÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛ  ÛÛ  ÛÛ\n";
-	cout<<"\t\tÛÛ  ÛÛ  ÛÛ      ÛÛÛ ÛÛ  ÛÛ      ÛÛ      ÛÛ  ÛÛ  ÛÛ\n";
-	cout<<"\t\tÛÛ  ÛÛ  ÛÛÛÛ    ÛÛÛÛÛÛ  ÛÛ      ÛÛÛÛ    ÛÛ  ÛÛ  ÛÛ\n";
-	cout<<"\t\t ÛÛÛÛ   ÛÛ      ÛÛ ÛÛÛ  ÛÛ      ÛÛ      ÛÛ  ÛÛ\n";
-	cout<<"\t\t  ÛÛ    ÛÛÛÛÛÛ  ÛÛ  ÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛ\n\n\n";
+	cout<<"\t\tâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ\n";
+	cout<<"\t\tâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆâ–ˆ â–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆ      â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ\n";
+	cout<<"\t\tâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆ    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆâ–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ\n";
+	cout<<"\t\t â–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆ      â–ˆâ–ˆ â–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆ      â–ˆâ–ˆ  â–ˆâ–ˆ\n";
+	cout<<"\t\t  â–ˆâ–ˆ    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ\n\n\n";
 	system("PAUSE");
 }
 
@@ -1033,13 +1033,13 @@ void chefao()
 {
 	system("CLS");
 	cout<<"\n\n\n\n\n\n";
-	cout<<"\t\t                               ÛÛ  ÛÛ      \n";
-	cout<<"\t\t                              ÛÛ ÛÛ     \n";
+	cout<<"\t\t                               â–ˆâ–ˆ  â–ˆâ–ˆ      \n";
+	cout<<"\t\t                              â–ˆâ–ˆ â–ˆâ–ˆ     \n";
 	cout<<"\t\t                                          \n";  
-	cout<<"\t\t  ÛÛÛÛÛ  ÛÛ  ÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛ  ÛÛÛÛÛ  ÛÛÛÛÛ\n";
-	cout<<"\t\t  ÛÛ     ÛÛ  ÛÛ  ÛÛ      ÛÛ     Û   Û  ÛÛ ÛÛ\n";
-	cout<<"\t\t  ÛÛ     ÛÛÛÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛ    ÛÛÛÛÛ  ÛÛ ÛÛ\n";
-	cout<<"\t\t  ÛÛ     ÛÛ  ÛÛ  ÛÛ      ÛÛ     ÛÛ ÛÛ  ÛÛ ÛÛ\n";
-	cout<<"\t\t  ÛÛÛÛÛ  ÛÛ  ÛÛ  ÛÛÛÛÛÛ  ÛÛ     Û   Û  ÛÛÛÛÛ\n\n\n\n\n\n\n\n\n\n";
+	cout<<"\t\t  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ\n";
+	cout<<"\t\t  â–ˆâ–ˆ     â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆ     â–ˆ   â–ˆ  â–ˆâ–ˆ â–ˆâ–ˆ\n";
+	cout<<"\t\t  â–ˆâ–ˆ     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆ    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–ˆâ–ˆ\n";
+	cout<<"\t\t  â–ˆâ–ˆ     â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ      â–ˆâ–ˆ     â–ˆâ–ˆ â–ˆâ–ˆ  â–ˆâ–ˆ â–ˆâ–ˆ\n";
+	cout<<"\t\t  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ     â–ˆ   â–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ\n\n\n\n\n\n\n\n\n\n";
 	system("PAUSE");
 }
