@@ -73,9 +73,18 @@ int abertura(){
 return escolha;
 }
 
+void clearScreen() {
+	system("clear");
+}
+
+void waitKey() {
+	cout << "Pressione enter..." << flush;
+	system("read");
+}
+
 void uesccombat()
 {
-	system("CLS");
+	clearScreen();
 	cout<<"\n";
 	cout<<"\t\t\t  ██  ██  ██████  ██████  ██████\n";
 	cout<<"\t\t\t  ██  ██  ██      ██      ██\n";
@@ -96,11 +105,11 @@ void jogo()
 		fase=1, numero_monstro=1, perdeu=0,dinheiro=0;
 	char nome_personagem[25]; 
 	
-	system("CLS"); 
+	clearScreen(); 
 					inicializa_personagem(resistencia_personagem, agilidade, ataque);	
 					cout << "Digite seu nome » ";
 					cin >> nome_personagem;
-					system("CLS");
+					clearScreen();
 					fase=1;
 					
 					while(fase <= 6 )
@@ -112,7 +121,7 @@ void jogo()
 									fase=9999;
 									break;
 								}
-								system("CLS");
+								clearScreen();
 								if (fase==6 && numero_monstro==6){
 									zerar();
 									break;
@@ -126,7 +135,7 @@ void jogo()
 }
 void regras_jogo()
 {
-	system("CLS");
+	clearScreen();
 	cout<<"\t\tSeja bem vindo ao jogo «« UESC COMBAT »»\n\n";
 	cout<<"\tRegras:\n";
 	cout<<"No inicio do jogo, voce escolhe o NIVEL, de acordo com ele voce recebe \n";
@@ -144,12 +153,12 @@ void regras_jogo()
 	cout<<"\t4 - Apos o ataque o seu adversario perdera em LIFE o valor ATAQUE + \n";
 	cout<<"\t  DADO(numero sorteado) - RESISTENCIA .\n";
 	cout<<"\n\n\t Agora que voce ja sabe como funciona, boa diversao.\n\n\n\n";
-	system("PAUSE");
+	waitKey();
 }
 
 void agradecimentos()
 {
-	system("cls");
+	clearScreen();
 	cout<<"\t\t\t\t« AGRADECIMENTOS »\n\n";
 	cout<<"\tGostariamos  de  agradecer  a  algumas  pessoas  que tornaram esse jogo possivel.\n";
 	cout<<"1 - Agradecemos em primeiro lugar ao homem que teve a brilhante ideia de contar seus carneirinhos utilizando pedrinhas, o que mais tarde deu origem ao abaco queeh o ancestral do computador.\n";
@@ -160,7 +169,7 @@ void agradecimentos()
 	cout<<"Caio       \tRodrigo         \tCesar Espinola\n";
 	cout<<"Betinhum\n";
 	cout<<"E muitos outros que contribuiram com sugestoes e opnioes. Obrigado!\n\n\n\n";
-	system("PAUSE");
+	waitKey();
 }
 void inicializa_personagem(int &resistencia, int&agilidade, int &ataque)
 {
@@ -194,8 +203,8 @@ void inicializa_personagem(int &resistencia, int&agilidade, int &ataque)
 			cout<<"Nao devia entrar aqui\n";
 	}
 
-	system("PAUSE");
-	system("CLS");
+	waitKey();
+	clearScreen();
 	cout << "Voce tem  " << pontos <<" pontos"<< endl;
 	cout << "Distribua os pontos entre os atributos: \n";
 	cout << "ATAQUE , AGILIDADE e RESISTENCIA.\n";
@@ -253,7 +262,7 @@ void inicializa_personagem(int &resistencia, int&agilidade, int &ataque)
 			}
 		}
 		if (pontos > 0){
-			system("CLS");	
+			clearScreen();	
 			status(resistencia,agilidade,ataque,pontos,dinheiro);
 			cout << "Vc ainda tem " << pontos << " pontos sobrando USE-OS\n";
 		}
@@ -431,21 +440,21 @@ int combate(int fase, int numero_monstro, char nome_personagem[25],int &resisten
 			cout<< "Voce ganhou "<<dinheiro_monstro<<" Reais\n\n\n\n\n\n"<<endl;
 			pontos_personagem += pontos_monstro;
 			dinheiro_personagem += dinheiro_monstro; 
-			system("PAUSE");
+			waitKey();
 			return 0;
 		}
 		barrinha(life_personagem,nome_personagem,life_monstro);
 		cout<<"\n";
-		system("PAUSE");
-		system("CLS");	
+		waitKey();
+		clearScreen();	
 	}
-	system("CLS");	
+	clearScreen();	
 	return 0;	
 }
 
 void inicia_luta(int fase, char nome_personagem[25], int resistencia_personagem, int ataque_personagem, int agilidade_personagem, int ponto_personagem, int dinheiro_personagem, int resistencia_monstro, int ataque_monstro, int agilidade_monstro, int ponto_monstro, int dinheiro_monstro, int numero_monstro)
 {
-	system("CLS");
+	clearScreen();
 	if (numero_monstro==6)
 		cout<<"\t\t\t\t\t\t\t CHEFAO";
 	cout<<"\n\t  /■■■■■\\                FASE - "<<fase<<"                /■■■■■\\\n";
@@ -471,8 +480,8 @@ void inicia_luta(int fase, char nome_personagem[25], int resistencia_personagem,
 	cout<<"   Dinheiro   |    "<<dinheiro_personagem<<"    \t\t         Dinheiro   |    "<<dinheiro_monstro<<"\n";
 	cout<<" -------------------------\t\t      --------------------------\n";    
 	
-	system("PAUSE");
-	system("CLS");
+	waitKey();
+	clearScreen();
 }
 
 void monstros(int fase,int numero,int &resistencia,int &ataque,int &agilidade,int &pontos,int &dinheiro) {
@@ -869,7 +878,7 @@ void refaz_personagem(int &pontos,int &resistencia, int&agilidade, int &ataque, 
 		pontos -= aux;
 		ataque+=aux;
 		aux=0;
-		system("cls");
+		clearScreen();
 		cout<<"\tVoce tem "<<pontos<< " pontos \n";
 		cout << "Distribua os pontos entre os atributos: \n";
 		status(resistencia,agilidade,ataque,pontos,dinheiro);
@@ -890,7 +899,7 @@ void refaz_personagem(int &pontos,int &resistencia, int&agilidade, int &ataque, 
 			pontos -= aux;
 			agilidade += aux;
 			aux=0;
-			system("cls");
+			clearScreen();
 			cout<<"\tVoce tem "<<pontos<< " pontos \n";
 			cout << "Distribua os pontos entre os atributos: \n";
 			status(resistencia,agilidade,ataque,pontos,dinheiro);
@@ -911,7 +920,7 @@ void refaz_personagem(int &pontos,int &resistencia, int&agilidade, int &ataque, 
 				pontos -= aux;
 				resistencia += aux;
 				aux=0;
-				system("cls");
+				clearScreen();
 			cout<<"\tVoce tem "<<pontos<< " pontos \n";
 			cout << "Distribua os pontos entre os atributos: \n";
 			status(resistencia,agilidade,ataque,pontos,dinheiro);
@@ -921,7 +930,7 @@ void refaz_personagem(int &pontos,int &resistencia, int&agilidade, int &ataque, 
 		}
 		if (pontos > 0){
 			do{
-				system("CLS");	
+				clearScreen();	
 				status(resistencia,ataque,agilidade,pontos,dinheiro);
 				cout << "Vc ainda tem " << pontos << " pontos sobrando.\n\n";
 				cout<<" 1- Guardar os pontos e continuar jogando\n";
@@ -951,8 +960,8 @@ void status(int resistencia, int agilidade, int ataque, int pontos, int dinheiro
 
 
 void gameover(){
-	system("PAUSE");
-	system("CLS");
+	waitKey();
+	clearScreen();
 	cout<<"\n\n\n\n\t\t\t██████  ██████  ███   ███  ██████\n";
 	cout<<"\t\t\t██      ██  ██  ██ █ █ ██  ██\n";
 	cout<<"\t\t\t██ ███  ██████  ██  █  ██  ████\n";
@@ -964,7 +973,7 @@ void gameover(){
 	cout<<"\t\t\t  ██  ██  ██  ██ ████    █████  \n";
 	cout<<"\t\t\t  ██  ██   ████  ██      ██  ██ \n";
 	cout<<"\t\t\t  ██████    ██   ██████  ██  ██ \n\n\n\n\n\n\n\n\n\n";
-	system("PAUSE");
+	waitKey();
 
 }
   
@@ -1008,7 +1017,7 @@ int porcentagem(int life) {
 }
 
 void zerar()
-{	system("CLS");
+{	clearScreen();
 	cout<<"\n\n\t██████  ██████  █████   ██████  █████   ██████  ██  ██  ██████\n";
 	cout<<"\t██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██      ███ ██  ██\n";
 	cout<<"\t██████  ██████  █████   ██████  ██████  ████    ██████  ██████\n";
@@ -1026,12 +1035,12 @@ void zerar()
 	cout<<"\t\t██  ██  ████    ██████  ██      ████    ██  ██  ██\n";
 	cout<<"\t\t ████   ██      ██ ███  ██      ██      ██  ██\n";
 	cout<<"\t\t  ██    ██████  ██  ██  ██████  ██████  ██████  ██\n\n\n";
-	system("PAUSE");
+	waitKey();
 }
 
 void chefao()
 {
-	system("CLS");
+	clearScreen();
 	cout<<"\n\n\n\n\n\n";
 	cout<<"\t\t                               ██  ██      \n";
 	cout<<"\t\t                              ██ ██     \n";
@@ -1041,5 +1050,5 @@ void chefao()
 	cout<<"\t\t  ██     ██████  ██████  ███    █████  ██ ██\n";
 	cout<<"\t\t  ██     ██  ██  ██      ██     ██ ██  ██ ██\n";
 	cout<<"\t\t  █████  ██  ██  ██████  ██     █   █  █████\n\n\n\n\n\n\n\n\n\n";
-	system("PAUSE");
+	waitKey();
 }
