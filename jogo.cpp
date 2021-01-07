@@ -34,7 +34,7 @@ const int  life_inicial=50; // constante do life de todos(monstros,personagem)
  
 int main()
 {		
-	static opcao=0;
+	static int opcao=0;
 	srand(time(0));
 	do
 	{
